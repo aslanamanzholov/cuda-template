@@ -304,7 +304,7 @@ img {
 
 .r-s-paragraph {
     margin-left: 150px;
-    width: 380px;
+    max-width: 380px;
 }
 
 .r-s p {
@@ -324,4 +324,27 @@ img {
 .r-s span {
     font-size: 18px;
     color: #ffdd99;
+}
+
+@media screen and (max-width: 680px) {
+    ul.nav {
+        display: none;
+    }
+
+    .d-f {
+        display: block;
+    }
+
+    .r-s-paragraph {
+        max-width: 100%;
+        margin-left: 112px;
+    }
+    
+    .header-promo h3 {
+        padding-top: 50px;
+    }
+
+    .logo {
+        text-align: center;
+    }
 }
