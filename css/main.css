@@ -131,7 +131,8 @@ main {
 }
 
 .header-promo button {
-    width: 293px;
+    max-width: 293px;
+    width: 100%;
     height: 70px;
     margin: 0 auto;
     margin-top: 58px;
@@ -301,7 +302,8 @@ img {
 
 .btn-port {
     background: #17c2a4;
-    width: 293px;
+    max-width: 293px;
+    width: 100%;
     height: 70px;
     margin: 0 auto;
     margin-top: 65px;
