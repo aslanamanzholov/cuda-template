@@ -326,6 +326,10 @@ img {
     color: #ffdd99;
 }
 
+.touch-section {
+    background: #3c5499;
+}
+
 @media screen and (max-width: 680px) {
     ul.nav {
         display: none;
