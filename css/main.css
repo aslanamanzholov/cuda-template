@@ -95,6 +95,21 @@ ul.nav li a {
     text-decoration: none;
 }
 
+/* .nav__item:hover {
+    display: block;
+    max-width: 90px;
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #643a79;
+    line-height: 12px;
+    padding: 10px;
+} */
+
+.nav__item:hover{
+    color: #eb7d4b;
+}
+
 main {
     background: #87509c;
     padding-bottom: 143px;
@@ -268,6 +283,10 @@ img {
     margin-top: 30px;
 }
 
+.main-href:hover {
+    background: #ffffff;
+}
+
 .h-h {
     text-align: center;
     margin-top:66px;
@@ -330,6 +349,66 @@ img {
     background: #3c5499;
 }
 
+.form-section {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.form-section__input {
+    background: #273a71;
+    border: none;
+    max-width: 428px;
+    height: 56px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.form-section__textarea {
+    background: #273a71;
+    border: none;
+    max-width: 860px;
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.touch-section__button {
+    display: block;
+    margin: 0 auto;
+    max-width: 293px;
+    width: 100%;
+    height: 70px;
+    border-radius: 4px;
+    background: #30bae7;
+    text-transform: uppercase;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.footer-section {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #344b8e;
+    padding: 20px;
+}
+
+.footer-section__share a {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-section__share a:hover {
+    color: #30bae7;
+}
+
 @media screen and (max-width: 680px) {
     ul.nav {
         display: none;
@@ -350,5 +429,37 @@ img {
 
     .logo {
         text-align: center;
+    }
+    
+    .footer-section__share a {
+        font-size: 13px;
+    }
+
+    .r-s p {
+        font-size: 15px;
+    }
+    
+    .r-s h3 {
+        font-size: 16px;
+    }
+
+    .r-s span {
+        font-size: 12px;
+    }
+
+    .h-h p {
+        font-size: 14px;
+    }
+
+    .main-paragraph {
+        font-size: 14px;
+    }
+
+    .main-title {
+        font-size: 25px;
+    }
+
+    .header-promo h3 {
+        font-size: 28px;
     }
 }
